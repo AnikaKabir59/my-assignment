@@ -66,6 +66,7 @@ display:flex;
 justify-content: space-between;
 gap:20px;
 font-family: fira sans;
+width:100%;
 }
 .card{
     max-width: 350px;
@@ -74,8 +75,9 @@ font-family: fira sans;
     gap:20px;
     justify-content: center;
     align-items: center;
-    background-color: rgba(78, 115, 178, 0.2);
-    padding:10px;
+    background-color: ;
+    padding:20px;
+
 }
 .card .image-box{
     width:200px;
@@ -84,6 +86,20 @@ font-family: fira sans;
 .card .image-box{
     width:100%;
 }
+.card-container .color1{
+    background-color: rgba(78, 115, 178, 0.2);
+    padding:20px;
+}
+.card-container .color2{
+    background-color: rgb(198, 228, 214);
+    padding:20px;
+}
+.card-container .color3{
+    background-color:rgb(247, 235, 207) ;
+    padding:20px;
+}
+
+
 
 
 
@@ -233,7 +249,7 @@ border-radius: 5px;
             flex-direction: row;
             justify-content:center;
             align-items:center;
-             gap:25px;
+             gap:10px;
              
            }
            
@@ -251,10 +267,10 @@ border-radius: 5px;
 
            }
            #develop {
-            width:80%;
+            width:100%;
             margine:0 auto;
             display:flex;
-            gap:10px;
+            gap:20px;
             flex-wrap: wrap;
             justify-content: space-evenly;
           
@@ -262,7 +278,10 @@ border-radius: 5px;
            }
            .btn button2{
             background-color: rgb(15, 199, 193);
-            
+            margine:10px;
+            padding:8px;
+            border-radius: 5px;
+  cursor:pointer;
            }
 
            
@@ -271,3 +290,56 @@ button:hover{
     background-color: aqua;
 }
  
+.donate{
+    width:400;
+    margin:0 auto;
+    text-align: center;
+}
+.donate p{
+    opacity: (0, 0 , .6);
+}
+.quote{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+padding:5px;
+
+}
+.quote h4{
+
+    Font: Fira Sans
+Font weight: 600
+Font size: 20pxpx
+Row height: 24px
+Letter spacing: 0%
+Align: Align left
+    
+}
+.quote .vector{
+    background-position: center;
+
+}
+
+
+#form{
+    
+justify-content: center;
+align-items: center;  
+width: 300px;
+height: 200px;
+border-radius: 10px;
+background-color: rgb(198, 228, 214);
+padding: 80px 100px 80px 100px;
+flex: none;
+order: 5;
+flex-grow: 0;
+margin: 80px 0px;
+}
